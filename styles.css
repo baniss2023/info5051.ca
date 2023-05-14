@@ -1,0 +1,58 @@
+/* Styles pour la mise en forme de la page */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.conteneur {
+  position: relative;
+}
+
+#texte {
+    width: 20%; /* 75% de la largeur du conteneur */
+}
+#saisie {
+  width: 50%; /* 75% de la largeur du conteneur */
+   text-align: justify;
+   font-family: "Dreaming Outloud Pro", sans-serif;
+  font-size: 18px;
+}
+
+.image-principale {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%; /* 25% de la largeur du conteneur */
+  height: auto;
+}
+
+
+h1 {
+  color: #333;
+}
+
+label {
+  font-weight: bold;
+}
+
+select, textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 20px;
+  font-weight: bold;
+}
